@@ -1,14 +1,14 @@
 ﻿<link rel="stylesheet" href="/libs/kendo/all.css" />
-<h3>Контрагенты</h3>
+<h3>Contragents</h3>
 <div *ngIf="InEdit">
 
     <form #compform="ngForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
-            <label for="name">Название *</label>
+            <label for="name">Name *</label>
             <input type="text" class="form-control" #name="ngModel" minlength="4" [(ngModel)]="model.name" name="name" required>
         </div>
         <div class="form-group">
-            <label for="name">Адрес *</label>
+            <label for="name">Address *</label>
             <input type="text" class="form-control" #address="ngModel" [(ngModel)]="model.address" name="address" required>
         </div>
 
@@ -18,54 +18,54 @@
         </div>
 
         <div class="form-group">
-            <label for="description">БИК *</label>
+            <label for="description">Bank ID *</label>
             <input type="text" class="form-control" minlength="9"  maxlength="9" pattern="^[0-9-]*$" #bik="ngModel" [(ngModel)]="model.bik" name="bik" required>
         </div>
         <div class="form-group">
-            <label for="description">Расчетный счет*</label>
+            <label for="description">Bank account number*</label>
             <input type="text" class="form-control" minlength="20" maxlength="20" pattern="^[0-9-]*$" #rs="ngModel" [(ngModel)]="model.rs" name="rs" required>
         </div>
         <div class="form-group">
-            <label for="description">Кор.счет*</label>
+            <label for="description">Corr. account number*</label>
             <input type="text" class="form-control" minlength="20" maxlength="20" pattern="^[0-9-]*$" #ks="ngModel" [(ngModel)]="model.ks" name="ks" required>
         </div>
 
         <button type="button" [disabled]="!compform.form.valid" (click)="onSubmit()" class="btn btn-primary">
-            <div *ngIf="model.id==0">Добавить</div>
-            <div *ngIf="model.id>0">Сохранить</div>
+            <div *ngIf="model.id==0">Add</div>
+            <div *ngIf="model.id>0">Save</div>
         </button>
         <button type="button" (click)="Refresh();onSelect(0);this.InEdit=false;" class="btn btn-primary">Отмена</button>
         <div *ngIf="((name.errors || email.errors || bik.errors || rs.errors || ks.errors) && (name.dirty || name.touched || email.touched || bik.touched  || rs.touched || ks.touched)) "
              class="alert alert-danger">
             <div [hidden]="!name?.errors?.minlength">
-                Название должно содержать минимум 4 символа.
+		Name at least 4 characters
             </div>
             <div [hidden]="!name?.errors?.required">
-                Укажите название
+		 Name required
             </div>
             <div [hidden]="!email?.errors?.pattern">
-                Email некорректный
+		Email incorrect
             </div>
             <div [hidden]="!email?.errors?.required">
-                Введите Email
+		Enter Email
             </div>
             <div [hidden]="!rs?.errors?.maxlength && !rs?.errors?.minlength">
-                Расчетный счет должен быть 20 символов
+		Bank account should be 20 digits
             </div>
             <div [hidden]="!ks?.errors?.maxlength && !ks?.errors?.minlength">
-                Кор. счет должен быть 20 символов
+		Corr.account should be 20 digits
             </div>
             <div [hidden]="!bik?.errors?.minlength && !bik?.errors?.maxlength">
-                БИК должен быть 9 символов
+		Bank ID should be 9 digits
             </div>
             <div [hidden]="!bik?.errors?.pattern">
-                БИК должен содержать только цифры
+                Bank ID: only digits allowed
             </div>
             <div [hidden]="!rs?.errors?.pattern">
-               Расчетный.счет должен содержать только цифры
+		Bank account: only digits allowed
             </div>
             <div [hidden]="!ks?.errors?.pattern">
-                Кор.счет должен содержать только цифры
+		Corr. account: only digits allowed
             </div>
         </div>
 
@@ -74,10 +74,10 @@
 <div style="margin:10px;" *ngIf="!InEdit">
     <button type="button" (click)="onSelect(0)" class="btn btn-primary">
         <div *ngIf="model.id==0">
-            Добавить
+		Add
         </div>
         <div *ngIf="model.id>0">
-            Сохранить
+		Save
         </div>
     </button>
 </div>
@@ -89,7 +89,7 @@
                 [pageable]="true"
                 (pageChange)="pageChange($event)"
                 [total]="36">
-        <kendo-grid-column title="Действия" width="100">
+        <kendo-grid-column title="Actions" width="100">
             <template kendoGridCellTemplate let-dataItem>
                 <input type="button" value="E" class="btn" (click)="onSelect(dataItem)" />
                 <input type="button" value="X" class="btn btn-danger" (click)="onDelete(dataItem.id)" />
@@ -97,17 +97,17 @@
         </kendo-grid-column>
 
 
-        <kendo-grid-column field="name" title="Компания" width="250">
+        <kendo-grid-column field="name" title="Company" width="250">
         </kendo-grid-column>
         <kendo-grid-column field="email" title="E-mail" width="250">
         </kendo-grid-column>
-        <kendo-grid-column field="address" title="Адрес" width="250">
+        <kendo-grid-column field="address" title="Address" width="250">
         </kendo-grid-column>
-        <kendo-grid-column field="bik" title="БИК" width="100">
+        <kendo-grid-column field="bik" title="Bank ID number" width="100">
         </kendo-grid-column>
-        <kendo-grid-column field="ks" title="Кор.Счет" width="200">
+        <kendo-grid-column field="ks" title="Corr.account" width="200">
         </kendo-grid-column>
-        <kendo-grid-column field="rs" title="Рас.счет" width="200">
+        <kendo-grid-column field="rs" title="Bank account number" width="200">
         </kendo-grid-column>
 
     </kendo-grid>

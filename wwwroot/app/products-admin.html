@@ -1,34 +1,34 @@
 
-<h3>Продукты</h3>
+<h3>Products</h3>
 <div *ngIf="InEdit">
     <form #productsForm="ngForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
-            <label for="name">Название *</label>
+            <label for="name">Name *</label>
             <input type="text" class="form-control" #name="ngModel" minlength="4" [(ngModel)]="model.name" name="name" required>
         </div>
         <div class="form-group">
-            <label for="description"> Описание  *</label>
+            <label for="description"> Description  *</label>
             <textarea class="form-control" #description="ngModel" [(ngModel)]="model.description" name="model.description" required>
 </textarea>
         </div>
         <button type="button" [disabled]="!productsForm.form.valid" (click)="onSubmit()" class="btn btn-primary">
-            <div *ngIf="model.id==0">Добавить</div>
-            <div *ngIf="model.id>0">Сохранить</div>
+            <div *ngIf="model.id==0">Add</div>
+            <div *ngIf="model.id>0">Save</div>
         </button>
-        <button type="button" (click)="Refresh();onSelect(0);this.InEdit=false;" class="btn btn-primary">Отмена</button>
+        <button type="button" (click)="Refresh();onSelect(0);this.InEdit=false;" class="btn btn-primary">Cancel</button>
         <div *ngIf="((name.errors || description.errors) && (name.dirty || name.touched || description.touched)) "
              class="alert alert-danger">
             <div [hidden]="!name?.errors?.minlength">
-                Название минимум 4 символа
+                Name at least 4 characters
             </div>
             <div [hidden]="!name?.errors?.maxlength">
-                Название не больше 24 символов
+                Name should not exceed 24 charcters
             </div>
             <div [hidden]="!name?.errors?.required">
-                Требуется название
+                Name required
             </div>
             <div [hidden]="!description?.errors?.required">
-                Требуется описание
+		Description required
             </div>
         </div>
     </form>
@@ -36,10 +36,10 @@
 <div style="margin:10px;" *ngIf="!InEdit">
     <button type="button" (click)="onSelect(0)" class="btn btn-primary">
         <div *ngIf="model.id==0">
-            Добавить
+		Add
         </div>
         <div *ngIf="model.id>0">
-            Сохранить
+		Save
         </div>
     </button>
 </div>
@@ -53,16 +53,16 @@
                 [skip]="skip"
                 [pageable]="true"
                 (pageChange)="pageChange($event)">
-        <kendo-grid-column title="Действия" width="100">
+        <kendo-grid-column title="Actions" width="100">
             <template kendoGridCellTemplate let-dataItem>
                 <input type="button" value="E" class="btn" (click)="onSelect(dataItem)" />
                 <input type="button" value="X" class="btn btn-danger" (click)="onDelete(dataItem.id)" />
             </template>
         </kendo-grid-column>
 
-        <kendo-grid-column field="name" title="Наименование" width="250">
+        <kendo-grid-column field="name" title="Name" width="250">
         </kendo-grid-column>
-        <kendo-grid-column field="description" title="Описание" width="250">
+        <kendo-grid-column field="description" title="Description" width="250">
         </kendo-grid-column>
     </kendo-grid>
 
