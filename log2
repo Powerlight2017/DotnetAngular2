@@ -1,0 +1,3450 @@
+Hash: 380facb7dc06fe68b72e3f9b0d562f1ab5beb715ea827b58d05363a845f23a241777786ea27d8ae3
+Version: webpack 1.13.2
+Child
+    Hash: 380facb7dc06fe68b72e
+    Version: webpack 1.13.2
+    Time: 163129ms
+                      Asset     Size  Chunks             Chunk Names
+       ./wwwroot/js/core.js  80.6 kB       0  [emitted]  core
+    ./wwwroot/js/reflect.js   158 kB       1  [emitted]  reflect
+     ./wwwroot/js/system.js   572 kB       2  [emitted]  system
+       ./wwwroot/js/zone.js    62 kB       3  [emitted]  zone
+        + 40 hidden modules
+    
+    WARNING in ./~/systemjs/dist/system.src.js
+    Critical dependencies:
+    1642:42-49 require function is used in a way in which dependencies cannot be statically extracted
+     @ ./~/systemjs/dist/system.src.js 1642:42-49
+    
+    WARNING in ./~/systemjs/dist ^\.\/.*$
+    Module not found: Error: a dependency to an entry point is not allowed
+     @ ./~/systemjs/dist ^\.\/.*$
+    
+    WARNING in ./~/systemjs/dist ^\.\/.*$
+    Module not found: Error: a dependency to an entry point is not allowed
+     @ ./~/systemjs/dist ^\.\/.*$
+    
+    WARNING in ./~/systemjs/dist/system-csp-production.js
+    Critical dependencies:
+    4:18275-18282 require function is used in a way in which dependencies cannot be statically extracted
+     @ ./~/systemjs/dist/system-csp-production.js 4:18275-18282
+    
+    WARNING in ./~/systemjs/dist/system-csp-production.js.map
+    Module parse failed: C:\work\dotnetEtalon\node_modules\systemjs\dist\system-csp-production.js.map Unexpected token (1:10)
+    You may need an appropriate loader to handle this file type.
+    SyntaxError: Unexpected token (1:10)
+        at Parser.pp$4.raise (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:2221:15)
+        at Parser.pp.unexpected (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:603:10)
+        at Parser.pp.semicolon (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:581:61)
+        at Parser.pp$1.parseExpressionStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:966:10)
+        at Parser.pp$1.parseStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:730:24)
+        at Parser.pp$1.parseBlock (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:981:25)
+        at Parser.pp$1.parseStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:709:33)
+        at Parser.pp$1.parseTopLevel (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:638:25)
+        at Parser.parse (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:516:17)
+        at Object.parse (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:3098:39)
+        at Parser.parse (C:\work\dotnetEtalon\node_modules\webpack\lib\Parser.js:902:15)
+        at DependenciesBlock.<anonymous> (C:\work\dotnetEtalon\node_modules\webpack\lib\NormalModule.js:104:16)
+        at DependenciesBlock.onModuleBuild (C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:310:10)
+        at nextLoader (C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:275:25)
+        at C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:259:5
+        at Storage.finished (C:\work\dotnetEtalon\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:38:16)
+        at C:\work\dotnetEtalon\node_modules\graceful-fs\graceful-fs.js:78:16
+        at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+     @ ./~/systemjs/dist ^\.\/.*$
+    
+    WARNING in ./~/systemjs/dist/system-csp-production.src.js
+    Critical dependencies:
+    1433:42-49 require function is used in a way in which dependencies cannot be statically extracted
+     @ ./~/systemjs/dist/system-csp-production.src.js 1433:42-49
+    
+    WARNING in ./~/systemjs/dist/system-polyfills.js
+    Critical dependencies:
+    4:377-384 This seems to be a pre-built javascript file. Though this is possible, it's not recommended. Try to require the original source to get better results.
+     @ ./~/systemjs/dist/system-polyfills.js 4:377-384
+    
+    WARNING in ./~/systemjs/dist/system-polyfills.js.map
+    Module parse failed: C:\work\dotnetEtalon\node_modules\systemjs\dist\system-polyfills.js.map Unexpected token (1:10)
+    You may need an appropriate loader to handle this file type.
+    SyntaxError: Unexpected token (1:10)
+        at Parser.pp$4.raise (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:2221:15)
+        at Parser.pp.unexpected (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:603:10)
+        at Parser.pp.semicolon (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:581:61)
+        at Parser.pp$1.parseExpressionStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:966:10)
+        at Parser.pp$1.parseStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:730:24)
+        at Parser.pp$1.parseBlock (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:981:25)
+        at Parser.pp$1.parseStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:709:33)
+        at Parser.pp$1.parseTopLevel (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:638:25)
+        at Parser.parse (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:516:17)
+        at Object.parse (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:3098:39)
+        at Parser.parse (C:\work\dotnetEtalon\node_modules\webpack\lib\Parser.js:902:15)
+        at DependenciesBlock.<anonymous> (C:\work\dotnetEtalon\node_modules\webpack\lib\NormalModule.js:104:16)
+        at DependenciesBlock.onModuleBuild (C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:310:10)
+        at nextLoader (C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:275:25)
+        at C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:259:5
+        at Storage.finished (C:\work\dotnetEtalon\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:38:16)
+        at C:\work\dotnetEtalon\node_modules\graceful-fs\graceful-fs.js:78:16
+        at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+     @ ./~/systemjs/dist ^\.\/.*$
+    
+    WARNING in ./~/systemjs/dist/system-polyfills.src.js
+    Critical dependencies:
+    6:400-407 This seems to be a pre-built javascript file. Though this is possible, it's not recommended. Try to require the original source to get better results.
+     @ ./~/systemjs/dist/system-polyfills.src.js 6:400-407
+    
+    WARNING in ./~/systemjs/dist/system-register-only.js.map
+    Module parse failed: C:\work\dotnetEtalon\node_modules\systemjs\dist\system-register-only.js.map Unexpected token (1:10)
+    You may need an appropriate loader to handle this file type.
+    SyntaxError: Unexpected token (1:10)
+        at Parser.pp$4.raise (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:2221:15)
+        at Parser.pp.unexpected (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:603:10)
+        at Parser.pp.semicolon (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:581:61)
+        at Parser.pp$1.parseExpressionStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:966:10)
+        at Parser.pp$1.parseStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:730:24)
+        at Parser.pp$1.parseBlock (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:981:25)
+        at Parser.pp$1.parseStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:709:33)
+        at Parser.pp$1.parseTopLevel (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:638:25)
+        at Parser.parse (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:516:17)
+        at Object.parse (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:3098:39)
+        at Parser.parse (C:\work\dotnetEtalon\node_modules\webpack\lib\Parser.js:902:15)
+        at DependenciesBlock.<anonymous> (C:\work\dotnetEtalon\node_modules\webpack\lib\NormalModule.js:104:16)
+        at DependenciesBlock.onModuleBuild (C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:310:10)
+        at nextLoader (C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:275:25)
+        at C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:259:5
+        at Storage.finished (C:\work\dotnetEtalon\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:38:16)
+        at C:\work\dotnetEtalon\node_modules\graceful-fs\graceful-fs.js:78:16
+        at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+     @ ./~/systemjs/dist ^\.\/.*$
+    
+    WARNING in ./~/systemjs/dist/system.js
+    Critical dependencies:
+    4:21224-21231 require function is used in a way in which dependencies cannot be statically extracted
+     @ ./~/systemjs/dist/system.js 4:21224-21231
+    
+    WARNING in ./~/systemjs/dist/system.js.map
+    Module parse failed: C:\work\dotnetEtalon\node_modules\systemjs\dist\system.js.map Unexpected token (1:10)
+    You may need an appropriate loader to handle this file type.
+    SyntaxError: Unexpected token (1:10)
+        at Parser.pp$4.raise (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:2221:15)
+        at Parser.pp.unexpected (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:603:10)
+        at Parser.pp.semicolon (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:581:61)
+        at Parser.pp$1.parseExpressionStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:966:10)
+        at Parser.pp$1.parseStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:730:24)
+        at Parser.pp$1.parseBlock (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:981:25)
+        at Parser.pp$1.parseStatement (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:709:33)
+        at Parser.pp$1.parseTopLevel (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:638:25)
+        at Parser.parse (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:516:17)
+        at Object.parse (C:\work\dotnetEtalon\node_modules\acorn\dist\acorn.js:3098:39)
+        at Parser.parse (C:\work\dotnetEtalon\node_modules\webpack\lib\Parser.js:902:15)
+        at DependenciesBlock.<anonymous> (C:\work\dotnetEtalon\node_modules\webpack\lib\NormalModule.js:104:16)
+        at DependenciesBlock.onModuleBuild (C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:310:10)
+        at nextLoader (C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:275:25)
+        at C:\work\dotnetEtalon\node_modules\webpack-core\lib\NormalModuleMixin.js:259:5
+        at Storage.finished (C:\work\dotnetEtalon\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:38:16)
+        at C:\work\dotnetEtalon\node_modules\graceful-fs\graceful-fs.js:78:16
+        at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+     @ ./~/systemjs/dist ^\.\/.*$
+Child
+    Hash: 3f9b0d562f1ab5beb715
+    Version: webpack 1.13.2
+    Time: 297655ms
+                                                                                       Asset     Size  Chunks             Chunk Names
+                ./wwwroot/app/Components/Companies/page-bootrappers/admin/admin-bootstrap.js  3.34 MB       0  [emitted]  admin
+        ./wwwroot/app/Components/Companies/page-bootrappers/companies/companies-bootstrap.js  3.34 MB       1  [emitted]  companies
+            ./wwwroot/app/Components/Companies/page-bootrappers/admin/admin-bootstrap.js.map  4.06 MB       0  [emitted]  admin
+    ./wwwroot/app/Components/Companies/page-bootrappers/companies/companies-bootstrap.js.map  4.06 MB       1  [emitted]  companies
+        + 447 hidden modules
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\localization\custom-messages.component.d.ts
+    (9,24): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\localization\custom-messages.component.d.ts
+    (9,32): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\localization\custom-messages.component.d.ts
+    (9,24): error TS2304: Cannot find name 'override'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,33): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,33): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,33): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,21): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,29): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,29): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (30,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (31,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,27): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,35): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,35): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,35): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,26): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,23): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,24): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,31): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (30,13): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (31,13): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,14): error TS2304: Cannot find name 'pagerWrapClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,14): error TS2304: Cannot find name 'gridPagerClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,14): error TS2304: Cannot find name 'widgetClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,14): error TS2304: Cannot find name 'prevButtonsDisabled'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,14): error TS2304: Cannot find name 'nextButtonsDisabled'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,14): error TS2304: Cannot find name 'showInitialPageSize'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,14): error TS2304: Cannot find name 'currentPage'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,14): error TS2304: Cannot find name 'totalPages'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,14): error TS2304: Cannot find name 'buttons'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,14): error TS2304: Cannot find name 'maxItems'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,14): error TS2304: Cannot find name 'currentPageText'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (30,22): error TS2304: Cannot find name 'end'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (31,22): error TS2304: Cannot find name 'start'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\component-messages.d.ts
+    (11,24): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\component-messages.d.ts
+    (11,32): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\component-messages.d.ts
+    (11,24): error TS2304: Cannot find name 'override'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\message.service.d.ts
+    (13,41): error TS2304: Cannot find name 'undefined'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,21): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,14): error TS2304: Cannot find name 'newDataItem'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,14): error TS2304: Cannot find name 'colSpan'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\footer.component.d.ts
+    (12,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\footer.component.d.ts
+    (12,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\footer.component.d.ts
+    (12,14): error TS2304: Cannot find name 'footerClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grouping\group-connection.service.d.ts
+    (23,25): error TS1112: A class member cannot be declared optional.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (39,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (39,13): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,14): error TS2304: Cannot find name 'headerClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (39,22): error TS2304: Cannot find name 'columnLevels'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selectable.directive.d.ts
+    (12,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selectable.directive.d.ts
+    (12,23): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selectable.directive.d.ts
+    (12,14): error TS2304: Cannot find name 'className'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\toolbar.component.d.ts
+    (44,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\toolbar.component.d.ts
+    (44,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\toolbar.component.d.ts
+    (44,14): error TS2304: Cannot find name 'classNames'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,43): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,36): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,36): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,29): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,47): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,14): error TS2304: Cannot find name 'templateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,39): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,14): error TS2304: Cannot find name 'groupHeaderTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,50): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,14): error TS2304: Cannot find name 'groupFooterTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,50): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,14): error TS2304: Cannot find name 'editTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,43): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,34): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,57): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,30): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,26): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,14): error TS2304: Cannot find name 'showFooter'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,14): error TS2304: Cannot find name 'lockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,14): error TS2304: Cannot find name 'nonLockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,14): error TS2304: Cannot find name 'lockedWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,14): error TS2304: Cannot find name 'nonLockedWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,14): error TS2304: Cannot find name 'isLocked'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (80,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (80,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (107,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (107,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (80,14): error TS2304: Cannot find name 'index'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (107,14): error TS2304: Cannot find name 'index'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grouping\group-info.service.d.ts
+    (9,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grouping\group-info.service.d.ts
+    (9,22): error TS2304: Cannot find name 'columns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,21): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,49): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,49): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,21): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,23): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,14): error TS2304: Cannot find name 'level'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,14): error TS2304: Cannot find name 'isLocked'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,14): error TS2304: Cannot find name 'colspan'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,14): error TS2304: Cannot find name 'headerTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,45): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,14): error TS2304: Cannot find name 'footerTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,45): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\edit.service.d.ts
+    (32,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\edit.service.d.ts
+    (32,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\edit.service.d.ts
+    (32,14): error TS2304: Cannot find name 'hasNewItem'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,30): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,14): error TS2304: Cannot find name 'selected'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,18): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,23): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,20): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,18): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,21): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,22): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,21): error TS2300: Duplicate identifier 'any'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,20): error TS2300: Duplicate identifier 'any'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,14): error TS2304: Cannot find name 'total'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,14): error TS2304: Cannot find name 'data'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,14): error TS2304: Cannot find name 'total'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,14): error TS2304: Cannot find name 'first'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,14): error TS2304: Cannot find name 'last'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\browser-support.service.d.ts
+    (6,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\browser-support.service.d.ts
+    (6,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\browser-support.service.d.ts
+    (6,14): error TS2304: Cannot find name 'scrollbarWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,23): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,27): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,30): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,23): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,26): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,27): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,50): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,30): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,53): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,34): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,57): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,48): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,25): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,27): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,29): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,32): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,26): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,25): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,28): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,33): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,33): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,30): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,14): error TS2304: Cannot find name 'isLocked'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,14): error TS2304: Cannot find name 'showPager'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,14): error TS2304: Cannot find name 'showGroupPanel'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,14): error TS2304: Cannot find name 'hostClasses'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,14): error TS2304: Cannot find name 'lockedClasses'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,14): error TS2304: Cannot find name 'virtualClasses'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,14): error TS2304: Cannot find name 'showGroupFooters'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,14): error TS2304: Cannot find name 'showFooter'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,14): error TS2304: Cannot find name 'isVirtual'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,14): error TS2304: Cannot find name 'isScrollable'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,14): error TS2304: Cannot find name 'lockedColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,14): error TS2304: Cannot find name 'nonLockedColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,14): error TS2304: Cannot find name 'lockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,14): error TS2304: Cannot find name 'nonLockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,14): error TS2304: Cannot find name 'leafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,14): error TS2304: Cannot find name 'totalColumnLevels'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,14): error TS2304: Cannot find name 'lockedWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,14): error TS2304: Cannot find name 'nonLockedWidth'.
+Child
+    Hash: ea827b58d05363a845f2
+    Version: webpack 1.13.2
+    Time: 297637ms
+                                                                                      Asset     Size  Chunks             Chunk Names
+              ./wwwroot/app/Components/Products/page-bootstrappers/admin/admin-bootstrap.js  3.34 MB       0  [emitted]  admin
+        ./wwwroot/app/Components/Products/page-bootstrappers/products/products-bootstrap.js  3.34 MB       1  [emitted]  products
+          ./wwwroot/app/Components/Products/page-bootstrappers/admin/admin-bootstrap.js.map  4.06 MB       0  [emitted]  admin
+    ./wwwroot/app/Components/Products/page-bootstrappers/products/products-bootstrap.js.map  4.06 MB       1  [emitted]  products
+        + 447 hidden modules
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\localization\custom-messages.component.d.ts
+    (9,24): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\localization\custom-messages.component.d.ts
+    (9,32): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\localization\custom-messages.component.d.ts
+    (9,24): error TS2304: Cannot find name 'override'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,33): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,33): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,33): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,21): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,29): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,29): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (30,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (31,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,27): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,35): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,35): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,35): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,26): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,23): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,24): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,31): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (30,13): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (31,13): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,14): error TS2304: Cannot find name 'pagerWrapClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,14): error TS2304: Cannot find name 'gridPagerClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,14): error TS2304: Cannot find name 'widgetClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,14): error TS2304: Cannot find name 'prevButtonsDisabled'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,14): error TS2304: Cannot find name 'nextButtonsDisabled'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,14): error TS2304: Cannot find name 'showInitialPageSize'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,14): error TS2304: Cannot find name 'currentPage'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,14): error TS2304: Cannot find name 'totalPages'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,14): error TS2304: Cannot find name 'buttons'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,14): error TS2304: Cannot find name 'maxItems'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,14): error TS2304: Cannot find name 'currentPageText'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (30,22): error TS2304: Cannot find name 'end'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (31,22): error TS2304: Cannot find name 'start'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\component-messages.d.ts
+    (11,24): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\component-messages.d.ts
+    (11,32): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\component-messages.d.ts
+    (11,24): error TS2304: Cannot find name 'override'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\message.service.d.ts
+    (13,41): error TS2304: Cannot find name 'undefined'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,21): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,14): error TS2304: Cannot find name 'newDataItem'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,14): error TS2304: Cannot find name 'colSpan'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\footer.component.d.ts
+    (12,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\footer.component.d.ts
+    (12,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\footer.component.d.ts
+    (12,14): error TS2304: Cannot find name 'footerClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grouping\group-connection.service.d.ts
+    (23,25): error TS1112: A class member cannot be declared optional.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (39,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (39,13): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,14): error TS2304: Cannot find name 'headerClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (39,22): error TS2304: Cannot find name 'columnLevels'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selectable.directive.d.ts
+    (12,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selectable.directive.d.ts
+    (12,23): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selectable.directive.d.ts
+    (12,14): error TS2304: Cannot find name 'className'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\toolbar.component.d.ts
+    (44,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\toolbar.component.d.ts
+    (44,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\toolbar.component.d.ts
+    (44,14): error TS2304: Cannot find name 'classNames'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,43): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,36): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,36): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,29): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,47): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,14): error TS2304: Cannot find name 'templateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,39): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,14): error TS2304: Cannot find name 'groupHeaderTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,50): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,14): error TS2304: Cannot find name 'groupFooterTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,50): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,14): error TS2304: Cannot find name 'editTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,43): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,34): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,57): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,30): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,26): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,14): error TS2304: Cannot find name 'showFooter'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,14): error TS2304: Cannot find name 'lockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,14): error TS2304: Cannot find name 'nonLockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,14): error TS2304: Cannot find name 'lockedWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,14): error TS2304: Cannot find name 'nonLockedWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,14): error TS2304: Cannot find name 'isLocked'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (80,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (80,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (107,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (107,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (80,14): error TS2304: Cannot find name 'index'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (107,14): error TS2304: Cannot find name 'index'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grouping\group-info.service.d.ts
+    (9,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grouping\group-info.service.d.ts
+    (9,22): error TS2304: Cannot find name 'columns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,21): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,49): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,49): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,21): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,23): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,14): error TS2304: Cannot find name 'level'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,14): error TS2304: Cannot find name 'isLocked'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,14): error TS2304: Cannot find name 'colspan'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,14): error TS2304: Cannot find name 'headerTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,45): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,14): error TS2304: Cannot find name 'footerTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,45): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\edit.service.d.ts
+    (32,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\edit.service.d.ts
+    (32,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\edit.service.d.ts
+    (32,14): error TS2304: Cannot find name 'hasNewItem'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,30): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,14): error TS2304: Cannot find name 'selected'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,18): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,23): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,20): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,18): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,21): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,22): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,21): error TS2300: Duplicate identifier 'any'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,20): error TS2300: Duplicate identifier 'any'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,14): error TS2304: Cannot find name 'total'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,14): error TS2304: Cannot find name 'data'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,14): error TS2304: Cannot find name 'total'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,14): error TS2304: Cannot find name 'first'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,14): error TS2304: Cannot find name 'last'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\browser-support.service.d.ts
+    (6,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\browser-support.service.d.ts
+    (6,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\browser-support.service.d.ts
+    (6,14): error TS2304: Cannot find name 'scrollbarWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,23): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,27): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,30): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,23): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,26): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,27): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,50): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,30): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,53): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,34): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,57): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,48): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,25): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,27): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,29): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,32): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,26): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,25): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,28): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,33): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,33): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,30): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,14): error TS2304: Cannot find name 'isLocked'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,14): error TS2304: Cannot find name 'showPager'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,14): error TS2304: Cannot find name 'showGroupPanel'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,14): error TS2304: Cannot find name 'hostClasses'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,14): error TS2304: Cannot find name 'lockedClasses'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,14): error TS2304: Cannot find name 'virtualClasses'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,14): error TS2304: Cannot find name 'showGroupFooters'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,14): error TS2304: Cannot find name 'showFooter'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,14): error TS2304: Cannot find name 'isVirtual'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,14): error TS2304: Cannot find name 'isScrollable'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,14): error TS2304: Cannot find name 'lockedColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,14): error TS2304: Cannot find name 'nonLockedColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,14): error TS2304: Cannot find name 'lockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,14): error TS2304: Cannot find name 'nonLockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,14): error TS2304: Cannot find name 'leafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,14): error TS2304: Cannot find name 'totalColumnLevels'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,14): error TS2304: Cannot find name 'lockedWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,14): error TS2304: Cannot find name 'nonLockedWidth'.
+Child
+    Hash: 3a241777786ea27d8ae3
+    Version: webpack 1.13.2
+    Time: 297634ms
+                                                                             Asset     Size  Chunks             Chunk Names
+        ./wwwroot/app/Components/Users/page-bootstrappers/admin/admin-bootstrap.js  3.34 MB       0  [emitted]  admin
+    ./wwwroot/app/Components/Users/page-bootstrappers/admin/admin-bootstrap.js.map  4.06 MB       0  [emitted]  admin
+        + 445 hidden modules
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\localization\custom-messages.component.d.ts
+    (9,24): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\localization\custom-messages.component.d.ts
+    (9,32): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\localization\custom-messages.component.d.ts
+    (9,24): error TS2304: Cannot find name 'override'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,33): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,33): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,33): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,21): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,29): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,29): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (30,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (31,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,27): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,35): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,35): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,35): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,26): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,23): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,24): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,31): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (30,13): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (31,13): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (15,14): error TS2304: Cannot find name 'pagerWrapClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (16,14): error TS2304: Cannot find name 'gridPagerClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (17,14): error TS2304: Cannot find name 'widgetClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (19,14): error TS2304: Cannot find name 'prevButtonsDisabled'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (20,14): error TS2304: Cannot find name 'nextButtonsDisabled'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (21,14): error TS2304: Cannot find name 'showInitialPageSize'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (24,14): error TS2304: Cannot find name 'currentPage'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (25,14): error TS2304: Cannot find name 'totalPages'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (27,14): error TS2304: Cannot find name 'buttons'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (28,14): error TS2304: Cannot find name 'maxItems'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (29,14): error TS2304: Cannot find name 'currentPageText'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (30,22): error TS2304: Cannot find name 'end'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\pager.component.d.ts
+    (31,22): error TS2304: Cannot find name 'start'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\component-messages.d.ts
+    (11,24): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\component-messages.d.ts
+    (11,32): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\component-messages.d.ts
+    (11,24): error TS2304: Cannot find name 'override'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-l10n\dist\es\message.service.d.ts
+    (13,41): error TS2304: Cannot find name 'undefined'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,21): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (32,14): error TS2304: Cannot find name 'newDataItem'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\table-body.component.d.ts
+    (46,14): error TS2304: Cannot find name 'colSpan'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\footer.component.d.ts
+    (12,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\footer.component.d.ts
+    (12,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\footer.component.d.ts
+    (12,14): error TS2304: Cannot find name 'footerClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grouping\group-connection.service.d.ts
+    (23,25): error TS1112: A class member cannot be declared optional.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (39,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (39,13): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (27,14): error TS2304: Cannot find name 'headerClass'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\header.component.d.ts
+    (39,22): error TS2304: Cannot find name 'columnLevels'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selectable.directive.d.ts
+    (12,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selectable.directive.d.ts
+    (12,23): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selectable.directive.d.ts
+    (12,14): error TS2304: Cannot find name 'className'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\toolbar.component.d.ts
+    (44,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\toolbar.component.d.ts
+    (44,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\toolbar.component.d.ts
+    (44,14): error TS2304: Cannot find name 'classNames'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,43): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,36): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,36): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,29): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,47): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,14): error TS2304: Cannot find name 'templateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (112,39): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,14): error TS2304: Cannot find name 'groupHeaderTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (113,50): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,14): error TS2304: Cannot find name 'groupFooterTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (114,50): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,14): error TS2304: Cannot find name 'editTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column.component.d.ts
+    (115,43): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,34): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,57): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,30): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,26): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (52,14): error TS2304: Cannot find name 'showFooter'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (62,14): error TS2304: Cannot find name 'lockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (63,14): error TS2304: Cannot find name 'nonLockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (64,14): error TS2304: Cannot find name 'lockedWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (65,14): error TS2304: Cannot find name 'nonLockedWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\list.component.d.ts
+    (66,14): error TS2304: Cannot find name 'isLocked'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (80,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (80,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (107,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (107,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (80,14): error TS2304: Cannot find name 'index'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.iterators.d.ts
+    (107,14): error TS2304: Cannot find name 'index'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grouping\group-info.service.d.ts
+    (9,22): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grouping\group-info.service.d.ts
+    (9,22): error TS2304: Cannot find name 'columns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,21): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,49): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,49): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,21): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,23): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (129,14): error TS2304: Cannot find name 'level'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (133,14): error TS2304: Cannot find name 'isLocked'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (138,14): error TS2304: Cannot find name 'colspan'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,14): error TS2304: Cannot find name 'headerTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (146,45): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,14): error TS2304: Cannot find name 'footerTemplateRef'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\column-base.d.ts
+    (150,45): error TS2368: Type parameter name cannot be 'any'
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\edit.service.d.ts
+    (32,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\edit.service.d.ts
+    (32,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\edit.service.d.ts
+    (32,14): error TS2304: Cannot find name 'hasNewItem'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,30): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\selection.service.d.ts
+    (25,14): error TS2304: Cannot find name 'selected'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,18): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,23): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,20): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,19): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,18): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,21): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (32,22): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,21): error TS2300: Duplicate identifier 'any'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,20): error TS2300: Duplicate identifier 'any'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (16,14): error TS2304: Cannot find name 'total'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (17,14): error TS2304: Cannot find name 'data'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (31,14): error TS2304: Cannot find name 'total'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (33,14): error TS2304: Cannot find name 'first'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\data.collection.d.ts
+    (34,14): error TS2304: Cannot find name 'last'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\browser-support.service.d.ts
+    (6,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\browser-support.service.d.ts
+    (6,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\browser-support.service.d.ts
+    (6,14): error TS2304: Cannot find name 'scrollbarWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,22): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,23): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,27): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,30): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,24): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,23): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,26): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,27): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,50): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,30): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,53): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,54): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,34): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,57): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,48): error TS1005: '(' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,31): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,25): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,14): error TS1005: '=' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,28): error TS1005: ';' expected.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,25): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,27): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,29): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,30): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,32): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,26): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,25): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,24): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,28): error TS2300: Duplicate identifier 'boolean'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,33): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,27): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,5): error TS2300: Duplicate identifier 'readonly'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,33): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,30): error TS2300: Duplicate identifier 'number'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (119,14): error TS2304: Cannot find name 'isLocked'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (123,14): error TS2304: Cannot find name 'showPager'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (127,14): error TS2304: Cannot find name 'showGroupPanel'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (247,14): error TS2304: Cannot find name 'hostClasses'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (248,14): error TS2304: Cannot find name 'lockedClasses'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (249,14): error TS2304: Cannot find name 'virtualClasses'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (259,14): error TS2304: Cannot find name 'showGroupFooters'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (260,14): error TS2304: Cannot find name 'showFooter'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (264,14): error TS2304: Cannot find name 'isVirtual'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (265,14): error TS2304: Cannot find name 'isScrollable'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (266,14): error TS2304: Cannot find name 'lockedColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (267,14): error TS2304: Cannot find name 'nonLockedColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (268,14): error TS2304: Cannot find name 'lockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (269,14): error TS2304: Cannot find name 'nonLockedLeafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (270,14): error TS2304: Cannot find name 'leafColumns'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (271,14): error TS2304: Cannot find name 'totalColumnLevels'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (272,14): error TS2304: Cannot find name 'lockedWidth'.
+    
+    ERROR in C:\work\dotnetEtalon\node_modules\@progress\kendo-angular-grid\dist\es\grid.component.d.ts
+    (273,14): error TS2304: Cannot find name 'nonLockedWidth'.

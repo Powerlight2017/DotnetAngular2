@@ -1,0 +1,114 @@
+﻿<link rel="stylesheet" href="/libs/kendo/all.css" />
+<h3>Контрагенты</h3>
+<div *ngIf="InEdit">
+
+    <form #compform="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="name">Название *</label>
+            <input type="text" class="form-control" #name="ngModel" minlength="4" [(ngModel)]="model.name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="name">Адрес *</label>
+            <input type="text" class="form-control" #address="ngModel" [(ngModel)]="model.address" name="address" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">E-mail *</label>
+            <input type="email" class="form-control" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" #email="ngModel" [(ngModel)]="model.email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">БИК *</label>
+            <input type="text" class="form-control" minlength="9"  maxlength="9" pattern="^[0-9-]*$" #bik="ngModel" [(ngModel)]="model.bik" name="bik" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Расчетный счет*</label>
+            <input type="text" class="form-control" minlength="20" maxlength="20" pattern="^[0-9-]*$" #rs="ngModel" [(ngModel)]="model.rs" name="rs" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Кор.счет*</label>
+            <input type="text" class="form-control" minlength="20" maxlength="20" pattern="^[0-9-]*$" #ks="ngModel" [(ngModel)]="model.ks" name="ks" required>
+        </div>
+
+        <button type="button" [disabled]="!compform.form.valid" (click)="onSubmit()" class="btn btn-primary">
+            <div *ngIf="model.id==0">Добавить</div>
+            <div *ngIf="model.id>0">Сохранить</div>
+        </button>
+        <button type="button" (click)="Refresh();onSelect(0);this.InEdit=false;" class="btn btn-primary">Отмена</button>
+        <div *ngIf="((name.errors || email.errors || bik.errors || rs.errors || ks.errors) && (name.dirty || name.touched || email.touched || bik.touched  || rs.touched || ks.touched)) "
+             class="alert alert-danger">
+            <div [hidden]="!name?.errors?.minlength">
+                Название должно содержать минимум 4 символа.
+            </div>
+            <div [hidden]="!name?.errors?.required">
+                Укажите название
+            </div>
+            <div [hidden]="!email?.errors?.pattern">
+                Email некорректный
+            </div>
+            <div [hidden]="!email?.errors?.required">
+                Введите Email
+            </div>
+            <div [hidden]="!rs?.errors?.maxlength && !rs?.errors?.minlength">
+                Расчетный счет должен быть 20 символов
+            </div>
+            <div [hidden]="!ks?.errors?.maxlength && !ks?.errors?.minlength">
+                Кор. счет должен быть 20 символов
+            </div>
+            <div [hidden]="!bik?.errors?.minlength && !bik?.errors?.maxlength">
+                БИК должен быть 9 символов
+            </div>
+            <div [hidden]="!bik?.errors?.pattern">
+                БИК должен содержать только цифры
+            </div>
+            <div [hidden]="!rs?.errors?.pattern">
+               Расчетный.счет должен содержать только цифры
+            </div>
+            <div [hidden]="!ks?.errors?.pattern">
+                Кор.счет должен содержать только цифры
+            </div>
+        </div>
+
+    </form>
+</div>
+<div style="margin:10px;" *ngIf="!InEdit">
+    <button type="button" (click)="onSelect(0)" class="btn btn-primary">
+        <div *ngIf="model.id==0">
+            Добавить
+        </div>
+        <div *ngIf="model.id>0">
+            Сохранить
+        </div>
+    </button>
+</div>
+<div *ngIf="!InEdit">
+
+    <kendo-grid [data]="gridView"
+                [pageSize]="pageSize"
+                [skip]="skip"
+                [pageable]="true"
+                (pageChange)="pageChange($event)"
+                [total]="36">
+        <kendo-grid-column title="Действия" width="100">
+            <template kendoGridCellTemplate let-dataItem>
+                <input type="button" value="E" class="btn" (click)="onSelect(dataItem)" />
+                <input type="button" value="X" class="btn btn-danger" (click)="onDelete(dataItem.id)" />
+            </template>
+        </kendo-grid-column>
+
+
+        <kendo-grid-column field="name" title="Компания" width="250">
+        </kendo-grid-column>
+        <kendo-grid-column field="email" title="E-mail" width="250">
+        </kendo-grid-column>
+        <kendo-grid-column field="address" title="Адрес" width="250">
+        </kendo-grid-column>
+        <kendo-grid-column field="bik" title="БИК" width="100">
+        </kendo-grid-column>
+        <kendo-grid-column field="ks" title="Кор.Счет" width="200">
+        </kendo-grid-column>
+        <kendo-grid-column field="rs" title="Рас.счет" width="200">
+        </kendo-grid-column>
+
+    </kendo-grid>
+</div>

@@ -1,0 +1,20 @@
+﻿<link rel="stylesheet" href="/libs/kendo/all.css" />
+<h3>Контрагенты</h3>
+
+<kendo-grid [data]="gridView"
+            [pageSize]="pageSize"
+            [skip]="skip"
+            [pageable]="true"
+            (pageChange)="pageChange($event)"
+            [total]="36">
+
+    <kendo-grid-column field="name" title="Компания" width="250">
+    </kendo-grid-column>
+    <kendo-grid-column field="email" title="E-mail" width="250">
+    </kendo-grid-column>
+    <kendo-grid-column field="address" title="Адрес" width="250">
+    </kendo-grid-column>
+    
+
+</kendo-grid>
+

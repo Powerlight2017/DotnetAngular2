@@ -1,0 +1,1 @@
+npm login --registry=https://registry.npm.telerik.com/ --scope=@progress

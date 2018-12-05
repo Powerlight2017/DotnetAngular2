@@ -1,0 +1,1 @@
+npm view @progress/kendo-angular-grid versions

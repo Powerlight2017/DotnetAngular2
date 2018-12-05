@@ -1,0 +1,215 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>dotnetEtalon</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>dotnetEtalon</PackageId>
+    <UserSecretsId>aspnet-WebApplication-0799fe3e-6eaf-4c5f-b40e-7c6bfd5dfa9a</UserSecretsId>
+    <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;dnxcore50;portable-net45+win8</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\app\Components\Companies\temp\**" />
+    <Content Remove="wwwroot\app\Components\Companies\temp\**" />
+    <EmbeddedResource Remove="wwwroot\app\Components\Companies\temp\**" />
+    <None Remove="wwwroot\app\Components\Companies\temp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot/app\Components\App\app.componentHW.js" />
+    <Content Remove="wwwroot/app\Components\App\app.componentHW.js.map" />
+    <Content Remove="wwwroot/app\Components\App\app.componentHW.ts" />
+    <Content Remove="wwwroot/app\Components\App\app.module.js" />
+    <Content Remove="wwwroot/app\Components\App\app.module.js.map" />
+    <Content Remove="wwwroot/app\Components\App\app.module.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\app\companies-admin.html" />
+    <Content Include="wwwroot\app\companies.html">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\companiesForm.component.js" />
+    <Content Include="wwwroot\app\companiesForm.component.js.map" />
+    <Content Include="wwwroot\app\companiesForm.js" />
+    <Content Include="wwwroot\app\companiesForm.js.map" />
+    <Content Include="wwwroot\app\companiesForm.ts" />
+    <Content Include="wwwroot\app\company.js" />
+    <Content Include="wwwroot\app\company.js.map" />
+    <Content Include="wwwroot\app\company.service.js" />
+    <Content Include="wwwroot\app\company.service.js.map" />
+    <Content Include="wwwroot\app\company.service.ts" />
+    <Content Include="wwwroot\app\company.ts" />
+    <Content Include="wwwroot\app\componentHW.html" />
+    <Content Include="wwwroot\app\Components\App\app.componentHW.js" />
+    <Content Include="wwwroot\app\Components\App\app.componentHW.js.map" />
+    <Content Include="wwwroot\app\Components\App\app.componentHW.ts" />
+    <Content Include="wwwroot\app\Components\App\app.module.js" />
+    <Content Include="wwwroot\app\Components\App\app.module.js.map" />
+    <Content Include="wwwroot\app\Components\App\app.module.ts" />
+    <Content Include="wwwroot\app\Components\App\bundle.js" />
+    <Content Include="wwwroot\app\Components\App\bundle.js.map" />
+    <Content Include="wwwroot\app\Components\App\main.js" />
+    <Content Include="wwwroot\app\Components\App\main.js.map" />
+    <Content Include="wwwroot\app\Components\App\main.ts" />
+    <Content Include="wwwroot\app\Components\App\nt-grid.directive.js" />
+    <Content Include="wwwroot\app\Components\App\nt-grid.directive.js.map" />
+    <Content Include="wwwroot\app\Components\App\nt-grid.directive.ts" />
+    <Content Include="wwwroot\app\Components\App\rxjs-operators.js" />
+    <Content Include="wwwroot\app\Components\App\rxjs-operators.js.map" />
+    <Content Include="wwwroot\app\Components\App\rxjs-operators.ts" />
+    <Content Include="wwwroot\app\Components\Companies\app.module.js.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\Components\Companies\companies-admin-bootstrap.js" />
+    <Content Include="wwwroot\app\Components\Companies\companies-admin-bootstrap.ts" />
+    <Content Include="wwwroot\app\Components\Companies\companies.app.module.js" />
+    <Content Include="wwwroot\app\Components\Companies\companies.app.module.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\companies.app.module.ts">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\Components\Companies\companies-admin.component.js" />
+    <Content Include="wwwroot\app\Components\Companies\companies-admin.component.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\companies-admin.js" />
+    <Content Include="wwwroot\app\Components\Companies\companies-admin.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\companies-admin.ts" />
+    <Content Include="wwwroot\app\Components\Companies\companies.component.js" />
+    <Content Include="wwwroot\app\Components\Companies\companies.component.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\companies.js" />
+    <Content Include="wwwroot\app\Components\Companies\companies.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\companies.ts" />
+    <Content Include="wwwroot\app\Components\Companies\companiesAdmin - Копировать.app.module.js">
+      <DependentUpon>companiesAdmin - Копировать.app.module.ts</DependentUpon>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\Components\Companies\companiesAdmin - Копировать.app.module.ts">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\Components\Companies\companiesAdmin.app.module.js" />
+    <Content Include="wwwroot\app\Components\Companies\companiesAdmin.app.module.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\companiesAdmin.app.module.ts" />
+    <Content Include="wwwroot\app\Components\Companies\companiesForm.component.js" />
+    <Content Include="wwwroot\app\Components\Companies\companiesForm.component.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\companiesForm.js" />
+    <Content Include="wwwroot\app\Components\Companies\companiesForm.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\companiesForm.ts" />
+    <Content Include="wwwroot\app\Components\Companies\company.js" />
+    <Content Include="wwwroot\app\Components\Companies\company.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\company.service.js" />
+    <Content Include="wwwroot\app\Components\Companies\company.service.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\company.service.ts" />
+    <Content Include="wwwroot\app\Components\Companies\company.ts" />
+    <Content Include="wwwroot\app\Components\Companies\page-bootrappers\admin\companies-admin-bootstrap.js" />
+    <Content Include="wwwroot\app\Components\Companies\page-bootrappers\admin\companies-admin-bootstrap.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\page-bootrappers\admin\companies-admin-bootstrap.ts" />
+    <Content Include="wwwroot\app\Components\Companies\page-bootrappers\companies\companies-bootstrap.js" />
+    <Content Include="wwwroot\app\Components\Companies\page-bootrappers\companies\companies-bootstrap.js.map" />
+    <Content Include="wwwroot\app\Components\Companies\page-bootrappers\companies\companies-bootstrap.ts" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\admin\admin-bootstrap.js" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\admin\admin-bootstrap.js.map" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\admin\admin-bootstrap.ts" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\admin\products-admin-bootstrap.js" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\admin\products-admin-bootstrap.js.map" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\admin\products-admin-bootstrap.ts" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\Products\products-bootstrap.js" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\Products\products-bootstrap.js.map" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\Products\products-view-bootstrap.js" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\Products\products-view-bootstrap.js.map" />
+    <Content Include="wwwroot\app\Components\Products\page-bootstrappers\Products\products-view-bootstrap.ts" />
+    <Content Include="wwwroot\app\Components\Products\product.service.ts" />
+    <Content Include="wwwroot\app\Components\Products\Product.ts" />
+    <Content Include="wwwroot\app\Components\Products\productForm.ts" />
+    <Content Include="wwwroot\app\Components\Products\products-admin.ts" />
+    <Content Include="wwwroot\app\Components\Products\products.app.module.ts" />
+    <Content Include="wwwroot\app\Components\Products\products.ts" />
+    <Content Include="wwwroot\app\Components\Products\ProductsAdmin.app.module.ts" />
+    <Content Include="wwwroot\app\Components\Products\Product.js" />
+    <Content Include="wwwroot\app\Components\Products\Product.js.map" />
+    <Content Include="wwwroot\app\Components\Products\product.service.js" />
+    <Content Include="wwwroot\app\Components\Products\product.service.js.map" />
+    <Content Include="wwwroot\app\Components\Products\productForm.component.html" />
+    <Content Include="wwwroot\app\Components\Products\productForm.js" />
+    <Content Include="wwwroot\app\Components\Products\productForm.js.map" />
+    <Content Include="wwwroot\app\main.js" />
+    <Content Include="wwwroot\app\main.js.map" />
+    <Content Include="wwwroot\app\main.ts" />
+    <Content Include="wwwroot\app\nt-grid.directive.js" />
+    <Content Include="wwwroot\app\nt-grid.directive.js.map" />
+    <Content Include="wwwroot\app\nt-grid.directive.ts" />
+    <Content Include="wwwroot\app\Product.js" />
+    <Content Include="wwwroot\app\Product.js.map" />
+    <Content Include="wwwroot\app\product.service.js" />
+    <Content Include="wwwroot\app\product.service.js.map" />
+    <Content Include="wwwroot\app\product.service.ts" />
+    <Content Include="wwwroot\app\Product.ts" />
+    <Content Include="wwwroot\app\productForm.component.html" />
+    <Content Include="wwwroot\app\productForm.js" />
+    <Content Include="wwwroot\app\productForm.js.map" />
+    <Content Include="wwwroot\app\productForm.ts" />
+    <Content Include="wwwroot\app\rxjs-operators.js" />
+    <Content Include="wwwroot\app\rxjs-operators.js.map" />
+    <Content Include="wwwroot\app\rxjs-operators.ts" />
+    <Content Include="wwwroot\app\users-admin.html" />
+    <Content Include="wwwroot\companies-admin.html" />
+    <Content Include="wwwroot\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="wwwroot\**\*">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.0.0">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
+    <Exec Command="npm install" />
+    <Exec Command="bower install" />
+    <Exec Command="gulp clean" />
+    <Exec Command="gulp min" />
+  </Target>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Account\" />
+    <Folder Include="wwwroot\app\Components\Users\page-bootstrappers\admin\" />
+  </ItemGroup>
+
+</Project>

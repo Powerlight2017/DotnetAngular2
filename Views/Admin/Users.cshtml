@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Администрирование пользователей";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@section Scripts {
+    <script src="js/core.js"></script>
+    <script src="js/zone.js"></script>
+    <script src="js/reflect.js"></script>
+    <script src="js/system.js"></script>
+    
+
+   
+    <link rel="stylesheet" href="/libs/angular-ui-grid/ui-grid.css" />
+    <!-- 2. Configure SystemJS -->
+    <script src="/systemjs.config.js"></script>
+    <script>
+        System.import('app/Components/users/page-bootstrappers/admin').catch(function (err) { console.error(err); });
+    </script>
+
+}
+
+<div class="container">
+    <caform>Загрузка...</caform>
+</div>
+
+

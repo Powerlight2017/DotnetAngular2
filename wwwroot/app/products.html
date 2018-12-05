@@ -1,0 +1,15 @@
+﻿<link rel="stylesheet" href="/libs/kendo/all.css" />
+<h3>Продукты</h3>
+
+<kendo-grid [data]="gridView"
+            [pageSize]="pageSize"
+            [skip]="skip"
+            [pageable]="true"
+            (pageChange)="pageChange($event)">
+
+    <kendo-grid-column field="name" title="Наименование" width="250">
+    </kendo-grid-column>
+    <kendo-grid-column field="description" title="Описание" width="250">
+    </kendo-grid-column>
+</kendo-grid>
+

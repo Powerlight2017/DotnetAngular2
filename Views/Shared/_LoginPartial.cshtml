@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using dotnetEtalon.Models
+
+
+@if (User.Identity.IsAuthenticated)
+{
+    <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="navbar-right">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a asp-area="" asp-controller="Home" asp-action="Index" title="Manage">Привет  @User.Identity.Name!</a>
+            </li>
+            <li>
+@if (User.Claims.Count(x=>x.Type.ToLower() == "permission-edit")>0)
+{
+                <a asp-area="" asp-controller="Admin" asp-action="Index" title="Manage">Администрирование</a>
+}
+            </li>
+            <li>
+                <button type="submit" class="btn btn-link navbar-btn navbar-link">Выйти</button>
+            </li>
+        </ul>
+    </form>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li><a asp-area="" asp-controller="Account" asp-action="Register">Регистрация</a></li>
+        <li><a asp-area="" asp-controller="Account" asp-action="Login">Вход</a></li>
+    </ul>
+}

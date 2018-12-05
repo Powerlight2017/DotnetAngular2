@@ -1,0 +1,78 @@
+﻿<link rel="stylesheet" href="/libs/kendo/all.css" />
+<h3>Пользователи системы</h3>
+
+<div *ngIf="InEdit">
+    <form #compform="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="name">Email *</label>
+            <input type="text" class="form-control" #name="ngModel" minlength="4" [(ngModel)]="model.email" name="name" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
+        </div>
+        <div class="form-group">
+            <label for="name">Пароль *</label>
+            <input type="password" class="form-control" #password="ngModel" [(ngModel)]="model.password" name="password" required>
+        </div>
+        <h4>Разрешения</h4>
+        <div class="form-group">
+            <div style="display:inline; width:">Доступ в админку (редактирование)</div><div style="display:inline; vertical-align: text-top; margin-left: 10px;"><input type="checkbox" class="" (click)="setPermission(model.userPermissions,constUserPermissionEdit)" [checked]="requiredPermissionExist(model.userPermissions,constUserPermissionEdit)" name="editperm"></div>
+            
+            <div style="display:inline;">Доступ к закрытым разделам сайта</div><div style="display:inline;vertical-align: text-top; margin-left: 10px;"><input type="checkbox" class="" (click)="setPermission(model.userPermissions,constUserPermissionSpecialSections)" [checked]="requiredPermissionExist(model.userPermissions,constUserPermissionSpecialSections)" name="editperm"></div>
+        </div>
+
+        <button type="button" [disabled]="!compform.form.valid" (click)="onSubmit()" class="btn btn-primary">
+            <div *ngIf="model.id==0">Добавить</div>
+            <div *ngIf="model.id>0">Сохранить</div>
+        </button>
+        
+        <button type="button" (click)="Refresh();onSelect(0);this.InEdit=false;" class="btn btn-primary">Отмена</button>
+        <div *ngIf="((name?.errors || password?.errors ) && (password?.touched || email?.touched)) "
+             class="alert alert-danger">
+            <div [hidden]="!name?.errors?.pattern">
+                Email некорректный
+            </div>
+            <div [hidden]="!name?.errors?.required">
+                Введите Email
+            </div>
+            <div [hidden]="!password?.errors?.required">
+                Введите пароль для пользователя
+            </div>
+        </div>
+
+    </form>
+</div>
+<div style="margin:10px;" *ngIf="!InEdit"><button type="button" (click)="onSelect(0)" class="btn btn-primary">Добавить</button></div>
+<div *ngIf="!InEdit">
+
+    <kendo-grid [data]="Users"
+                [pageSize]="pageSize"
+                [skip]="skip"
+                [pageable]="true"
+                (pageChange)="pageChange($event)"
+                [total]="36">
+        <kendo-grid-column title="Действия" width="40">
+            <template kendoGridCellTemplate let-dataItem>
+                <input type="button" value="E" class="btn" (click)="onSelect(dataItem)" />
+                <input type="button" value="X" class="btn btn-danger" (click)="onDelete(dataItem.id)" />
+            </template>
+        </kendo-grid-column>
+
+        <kendo-grid-column field="id" title="ИД" width="20">
+        </kendo-grid-column>
+
+        <kendo-grid-column field="email" title="E-mail" width="100">
+        </kendo-grid-column>
+        <kendo-grid-column title="Доступ в админку" width="35">
+            <template kendoGridCellTemplate let-dataItem>
+                {{ requiredPermissionExist(dataItem.userPermissions,constUserPermissionEdit) ? 'Да' : 'Нет' }}
+            </template>
+        </kendo-grid-column>
+
+        <kendo-grid-column title="Доступ в закрытые страницы" width="55">
+            <template kendoGridCellTemplate let-dataItem>
+                {{ requiredPermissionExist(dataItem.userPermissions,constUserPermissionSpecialSections) ? 'Да' : 'Нет' }}
+            </template>
+        </kendo-grid-column>
+
+
+
+    </kendo-grid>
+</div>

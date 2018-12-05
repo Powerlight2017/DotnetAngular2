@@ -1,0 +1,71 @@
+
+<h3>Продукты</h3>
+<div *ngIf="InEdit">
+    <form #productsForm="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="name">Название *</label>
+            <input type="text" class="form-control" #name="ngModel" minlength="4" [(ngModel)]="model.name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="description"> Описание  *</label>
+            <textarea class="form-control" #description="ngModel" [(ngModel)]="model.description" name="model.description" required>
+</textarea>
+        </div>
+        <button type="button" [disabled]="!productsForm.form.valid" (click)="onSubmit()" class="btn btn-primary">
+            <div *ngIf="model.id==0">Добавить</div>
+            <div *ngIf="model.id>0">Сохранить</div>
+        </button>
+        <button type="button" (click)="Refresh();onSelect(0);this.InEdit=false;" class="btn btn-primary">Отмена</button>
+        <div *ngIf="((name.errors || description.errors) && (name.dirty || name.touched || description.touched)) "
+             class="alert alert-danger">
+            <div [hidden]="!name?.errors?.minlength">
+                Название минимум 4 символа
+            </div>
+            <div [hidden]="!name?.errors?.maxlength">
+                Название не больше 24 символов
+            </div>
+            <div [hidden]="!name?.errors?.required">
+                Требуется название
+            </div>
+            <div [hidden]="!description?.errors?.required">
+                Требуется описание
+            </div>
+        </div>
+    </form>
+</div>
+<div style="margin:10px;" *ngIf="!InEdit">
+    <button type="button" (click)="onSelect(0)" class="btn btn-primary">
+        <div *ngIf="model.id==0">
+            Добавить
+        </div>
+        <div *ngIf="model.id>0">
+            Сохранить
+        </div>
+    </button>
+</div>
+<div *ngIf="!InEdit">
+
+    <link rel="stylesheet" href="/libs/kendo/all.css" />
+   
+
+    <kendo-grid [data]="gridView"
+                [pageSize]="pageSize"
+                [skip]="skip"
+                [pageable]="true"
+                (pageChange)="pageChange($event)">
+        <kendo-grid-column title="Действия" width="100">
+            <template kendoGridCellTemplate let-dataItem>
+                <input type="button" value="E" class="btn" (click)="onSelect(dataItem)" />
+                <input type="button" value="X" class="btn btn-danger" (click)="onDelete(dataItem.id)" />
+            </template>
+        </kendo-grid-column>
+
+        <kendo-grid-column field="name" title="Наименование" width="250">
+        </kendo-grid-column>
+        <kendo-grid-column field="description" title="Описание" width="250">
+        </kendo-grid-column>
+    </kendo-grid>
+
+
+
+</div>
